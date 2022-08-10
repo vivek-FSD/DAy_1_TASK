@@ -1,0 +1,61 @@
+HTTP 
+
+Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989 
+
+
+HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web. It was derived from the earlier experimental SPDY protocol,
+originally developed by Google. 
+
+HTTP/2 is the first new version of HTTP 
+
+
+The standardization effort was supported by Chrome, Opera, Firefox, Internet Explorer 11, Safari, Amazon Silk, and Edge browsers.
+
+Most major browsers had added HTTP/2 support by the end of 2015. About 97% of web browsers used have the capability
+
+HTTP
+
+HTTP stands for hypertext transfer protocol & it is used in client-server communication.
+By using HTTP user sends the request to the server & the server sends the response to the user.
+
+Types
+
+we will focus mainly on HTTP/1.1 which was created in 1997 & 
+
+the new one is HTTP/2 which was created in 2015.
+
+For instance, when someone navigates to some.com on their laptop, their web browser sends an HTTP request to the servers for the content that appears on the page. Then,
+concern servers send HTTP responses with the text, images, and formatting that the browser displays to the user.
+
+TCP
+
+TCP, short for Transmission Control Protocol, is a communication standard that enables 
+application programs and computing devices to exchange data and/or messages over networks.
+
+
+The client determines the IP address and port number from the URL and proceeds to establish a TCP connection to the server
+Once the connection is set up, the client sends the HTTP request and the server reads it .
+Once the server gets the entire request message, it processes the request, performs the requested action  and writes 
+the data back to the client. The client reads it  and processes the response data .
+
+Differences between HTTP/2 and HTTP/1.1
+
+HTTP/1.1--textual    
+HTTP2 is binary
+HTTP2 is fully multiplexed, instead of ordered and blocking
+HTTP2 can, therefore, use one connection for parallelism
+
+HTP2 uses header compression to reduce overhead--HPACK
+
+Small files load more quickly than large ones. To speed up web performance, both HTTP/1.1 and HTTP/2 compress HTTP messages to make them smaller. However,
+HTTP/2 uses a more advanced compression method called HPACK that eliminates redundant information in HTTP header packets.
+
+HTTP2 allows servers to “push” responses proactively into client caches.
+
+HTTP/2 solves this problem by allowing a server to "push" content to a client before the client asks for it--its like table of contents or sample data.
+
+
+
+
+
+
